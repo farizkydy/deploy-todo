@@ -41,7 +41,9 @@ const router = createBrowserRouter([
       },
     ],
   },
-])
+],
+{basename: '/deploy-todo/'}
+)
 
 function App(): JSX.Element {
   return (
